@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		3029918A269C05F0008B4329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30299189269C05F0008B4329 /* AppDelegate.swift */; };
 		3029918C269C05F0008B4329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029918B269C05F0008B4329 /* SceneDelegate.swift */; };
-		3029918E269C05F0008B4329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029918D269C05F0008B4329 /* ViewController.swift */; };
 		30299191269C05F0008B4329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3029918F269C05F0008B4329 /* Main.storyboard */; };
 		30299193269C05F3008B4329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30299192269C05F3008B4329 /* Assets.xcassets */; };
 		30299196269C05F3008B4329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30299194269C05F3008B4329 /* LaunchScreen.storyboard */; };
+		3029919E269C0D27008B4329 /* AppleMusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029919D269C0D27008B4329 /* AppleMusicTableViewController.swift */; };
+		302991A0269C0EF3008B4329 /* AppleMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029919F269C0EF3008B4329 /* AppleMusicTableViewCell.swift */; };
+		302991A2269C1052008B4329 /* CellStructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302991A1269C1052008B4329 /* CellStructFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30299186269C05F0008B4329 /* tableViewController practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableViewController practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30299189269C05F0008B4329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3029918B269C05F0008B4329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3029918D269C05F0008B4329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30299190269C05F0008B4329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30299192269C05F3008B4329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30299195269C05F3008B4329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30299197269C05F3008B4329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3029919D269C0D27008B4329 /* AppleMusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicTableViewController.swift; sourceTree = "<group>"; };
+		3029919F269C0EF3008B4329 /* AppleMusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicTableViewCell.swift; sourceTree = "<group>"; };
+		302991A1269C1052008B4329 /* CellStructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStructFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				30299189269C05F0008B4329 /* AppDelegate.swift */,
 				3029918B269C05F0008B4329 /* SceneDelegate.swift */,
-				3029918D269C05F0008B4329 /* ViewController.swift */,
 				3029918F269C05F0008B4329 /* Main.storyboard */,
+				302991A1269C1052008B4329 /* CellStructFile.swift */,
+				3029919F269C0EF3008B4329 /* AppleMusicTableViewCell.swift */,
+				3029919D269C0D27008B4329 /* AppleMusicTableViewController.swift */,
 				30299192269C05F3008B4329 /* Assets.xcassets */,
 				30299194269C05F3008B4329 /* LaunchScreen.storyboard */,
 				30299197269C05F3008B4329 /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3029918E269C05F0008B4329 /* ViewController.swift in Sources */,
 				3029918A269C05F0008B4329 /* AppDelegate.swift in Sources */,
 				3029918C269C05F0008B4329 /* SceneDelegate.swift in Sources */,
+				302991A0269C0EF3008B4329 /* AppleMusicTableViewCell.swift in Sources */,
+				302991A2269C1052008B4329 /* CellStructFile.swift in Sources */,
+				3029919E269C0D27008B4329 /* AppleMusicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
